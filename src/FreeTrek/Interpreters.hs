@@ -25,6 +25,10 @@ type P2 = Product CoDeflectorShieldsOps P1
 
 type Interpreters = P2
 
+-- Note: Usually the co-types would have a dual structure to the algebras,
+-- i.e. a handler function for each data constructor. In this use case separate
+-- handlers are not required.
+
 data CoWarpCoreOps a = CoWarpCoreOps {
     coWarpCoreOps :: forall b. WarpCoreOps b -> a
 } deriving Functor
