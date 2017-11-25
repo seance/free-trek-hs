@@ -1,7 +1,7 @@
 name:                free-trek-hs
 version:             0.1.0.0
 synopsis:            Free monad study
-description:         A study of Free monands with a Star Trek theme
+description:         A study of Free monads with a Star Trek theme
 homepage:            https://github.com/seance/free-trek-hs#readme
 license:             BSD3
 license-file:        LICENSE
